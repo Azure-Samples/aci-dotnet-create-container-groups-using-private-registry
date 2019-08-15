@@ -4,19 +4,19 @@ languages:
 - csharp
 products:
 - azure
-services: Container-Instance
-platforms: dotnet
-author: yaohaizh
+extensions:
+- services: Container-Instance
+- platforms: dotnet
 ---
 
 # Create Container Group using images from a private registry using C# #
 
-          Azure Container Instance sample for managing container groups with private image repositories.
-           - Create an Azure Container Registry to be used for holding the Docker images
-           - If a local Docker engine cannot be found, create a Linux virtual machine that will host a Docker engine
-               to be used for this sample
-           - Use Docker DotNet to create a Docker client that will push an image to Azure Container Registry
-           - Create a new container group with one container instance from the image that was pushed in the registry
+ Azure Container Instance sample for managing container groups with private image repositories.
+  - Create an Azure Container Registry to be used for holding the Docker images
+  - If a local Docker engine cannot be found, create a Linux virtual machine that will host a Docker engine
+      to be used for this sample
+  - Use Docker DotNet to create a Docker client that will push an image to Azure Container Registry
+  - Create a new container group with one container instance from the image that was pushed in the registry
 
 
 ## Running this Sample ##
