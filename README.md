@@ -7,6 +7,7 @@ products:
 extensions:
 - services: Container-Instance
 - platforms: dotnet
+description: "Azure Container Instance sample for managing container groups with private image repositories."
 ---
 
 # Create Container Group using images from a private registry using C# #
